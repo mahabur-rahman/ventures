@@ -24,20 +24,20 @@ A Twitter-like social media application frontend built with React, TypeScript, a
 ## Installation
 
 ```bash
-npm install
+yarn install
 ```
 
 ## Running the App
 
 ```bash
-# Development server (http://localhost:5173)
-npm run dev
+# Development server (http://localhost:3000)
+yarn dev
 
 # Build for production
-npm run build
+yarn build
 
 # Preview production build
-npm run preview
+yarn preview
 ```
 
 ## Project Structure

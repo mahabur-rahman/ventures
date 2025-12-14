@@ -88,17 +88,17 @@ npm run start:dev
 
 The server will run on `http://localhost:3001`
 
-### 4. Setup Frontend (Web)
+### 4. Setup Frontend (Client)
 
 ```bash
-cd web
-npm install
+cd src
+yarn install
 
 # Start development server
-npm run dev
+yarn dev
 ```
 
-The frontend will run on `http://localhost:5173`
+The frontend will run on `http://localhost:3000`
 
 ## 📁 Project Structure
 
@@ -115,12 +115,13 @@ ventures/
 │   │   ├── me/            # Current user endpoints
 │   │   ├── murmurs/       # Murmur module
 │   │   ├── users/         # Users module
+│   │   ├── common/        # Common utilities
 │   │   ├── app.module.ts
 │   │   └── main.ts
 │   ├── .env.example
 │   ├── package.json
 │   └── README.md
-├── web/                    # Frontend (React)
+├── src/                    # Frontend (React)
 │   ├── src/
 │   │   ├── components/    # Reusable components
 │   │   ├── context/       # React context
@@ -216,10 +217,10 @@ npm run test           # Run tests
 
 ### Frontend Development
 ```bash
-cd web
-npm run dev            # Start development server
-npm run build          # Build for production
-npm run preview        # Preview production build
+cd src
+yarn dev              # Start development server
+yarn build            # Build for production
+yarn preview          # Preview production build
 ```
 
 ### Database Management

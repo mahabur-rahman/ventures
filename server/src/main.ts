@@ -7,7 +7,7 @@ async function bootstrap() {
 
   // Enable CORS for frontend
   app.enableCors({
-    origin: 'http://localhost:5173', // Vite default port
+    origin: 'http://localhost:3000', // Frontend port
     credentials: true,
   });
 
